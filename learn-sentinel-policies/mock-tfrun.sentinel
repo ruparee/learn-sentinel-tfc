@@ -1,0 +1,47 @@
+id = "run-mywCPgHX76vrE2cx"
+created_at = "2023-11-18T02:29:28.662Z"
+created_by = "erupar"
+message = "Triggered via UI"
+commit_sha = "647cc033cbfd1bde5632a2120cff0fb6dfe0347e"
+speculative = false
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = []
+target_addrs = null
+project = {
+	"id":   "prj-BmpR4VpLTbbhKzjn",
+	"name": "Default Project",
+}
+
+variables = {
+	"AWS_ACCESS_KEY_ID": {
+		"category":  "terraform",
+		"sensitive": true,
+	},
+	"AWS_SECRET_ACCESS_KEY": {
+		"category":  "terraform",
+		"sensitive": true,
+	},
+}
+
+organization = {
+	"name": "samaz-startup",
+}
+
+workspace = {
+	"auto_apply":     false,
+	"created_at":     "2023-11-18T02:21:55.193Z",
+	"description":    null,
+	"execution_mode": "default",
+	"id":             "ws-zY7kjx3b9MwgFT7d",
+	"name":           "learn-sentinel-tfc",
+	"tags":           [],
+	"vcs_repo": {
+		"branch":             "",
+		"display_identifier": "ruparee/learn-sentinel-tfc",
+		"identifier":         "ruparee/learn-sentinel-tfc",
+		"ingress_submodules": false,
+	},
+	"working_directory": "",
+}
